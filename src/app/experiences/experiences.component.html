@@ -1,0 +1,5 @@
+<span>
+<em>{{experience.employer}}</em> - {{experience.positionTitle}} 
+ </span>
+<div *ngIf="experience.startDate">{{experience.startDate | date: 'MMMM, yyyy'}} - {{experience.endDate | date: 'MMMM, yyyy'}}</div>
+

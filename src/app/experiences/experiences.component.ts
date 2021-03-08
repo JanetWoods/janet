@@ -10,12 +10,11 @@ import { EXPERIENCES } from '../collectionOfPositions'
 export class ExperiencesComponent implements OnInit {
 
   experiences = EXPERIENCES;
-    dutyList = []
 
   selectedExperience?: Experience;
 
   onSelect(experience: Experience): void {
-    this.splitDuties(experience);
+    //this.splitDuties(experience);
     this.selectedExperience = experience;
   }
 
@@ -23,14 +22,7 @@ export class ExperiencesComponent implements OnInit {
 
   ngOnInit(): void { }
 
-  splitDuties(experience): string[]{
-    let dutyList = []
-
-      for (let duty of experience.duties) {
-         dutyList.push(duty);
-      }
-      return dutyList;
-  }
+ 
 
   }
 

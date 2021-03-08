@@ -1,5 +1,27 @@
-<span>
-<em>{{experience.employer}}</em> - {{experience.positionTitle}} 
- </span>
-<div *ngIf="experience.startDate">{{experience.startDate | date: 'MMMM, yyyy'}} - {{experience.endDate | date: 'MMMM, yyyy'}}</div>
 
+<h2> </h2>
+<ul class="experiences">
+  <li *ngFor="let experience of experiences" (click)="onSelect(experience)" [class.selected]="experience === selectedExperience">
+    <span class="badge">
+      <em>{{experience.employer}}  - {{experience.positionTitle}}   </em>  -
+      {{experience.startDate | date: 'MMMM, yyyy'}} - {{experience.endDate | date: 'MMMM, yyyy'}}
+    </span>
+  </li>
+</ul>
+
+<div *ngIf="selectedExperience">
+
+<h2> {{selectedExperience.employer}} - {{selectedExperience.positionTitle}} </h2>
+     {{selectedExperience.startDate | date: 'MMMM, yyyy'}} - {{selectedExperience.endDate | date: 'MMMM, yyyy'}}
+    
+        <ul>
+          <li *ngFor="let duty of duties">
+        {{selectedExperience.duty}}
+
+          </li>
+        </ul>
+       
+     
+      
+
+</div>

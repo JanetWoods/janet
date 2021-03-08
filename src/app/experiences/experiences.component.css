@@ -24,7 +24,7 @@
     }
 
     .experiences li.selected {
-      background-color: black;
+      background-color: blue;
       color: white;
     }
 
@@ -34,7 +34,7 @@
       }
 
       .experiences li.selected:active {
-        background-color: black;
+        background-color: blue;
         color: white;
       }
 

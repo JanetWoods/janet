@@ -14,7 +14,7 @@ export class ExperiencesComponent implements OnInit {
   selectedExperience?: Experience;
 
   onSelect(experience: Experience): void {
-    //this.splitDuties(experience);
+
     this.selectedExperience = experience;
   }
 

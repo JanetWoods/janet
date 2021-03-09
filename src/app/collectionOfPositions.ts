@@ -26,7 +26,7 @@ export const EXPERIENCES: Experience[] = [
     positionTitle: "Human Resource Manager",
     employer: 'Kentucky Army National Guard',
     duties: ['Automated economic reporting', 'Managed travel for over 500 employees using Defense Travel System', 'Managed travel card accounts for over 300 employees','Authored user freindly process manual for clerks', 'Managed both central and distributed work forces at different times.'],
-    startDate: '2004, 06',
+    startDate: '2010, 06',
     endDate: '2018, 7'
   }
 ]

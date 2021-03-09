@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.git",
+    "\\dist",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\experiences"
   ],
   "PreviewInSolutionExplorer": false
 }

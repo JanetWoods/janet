@@ -33,7 +33,7 @@ export const EXPERIENCES: Experience[] = [
     id: 4,
     positionTitle: "Readiness Manager",
     employer: "Kentucky Army National Guard",
-    duties: ['Developed and maintained database to assist with successful management of these duties:', 'Managed appropriate staffing levels', 'advertised vacant positions', 'identified potential opportunites for promotion', 'Managed individual training', 'Identified training deficencies', 'coordinated appropriate training to resolve deficiences', 'Initiated actions to discharge, promote, or advance personnel as appropriate', 'processed payroll for unit personnel', 'Produced status reports routinely'
+    duties: ['Developed and maintained database to assist with successful management of these duties:', 'Managed appropriate staffing levels', 'advertised vacant positions', 'identified potential opportunites for promotion', 'Managed individual training', 'Identified training deficencies', 'coordinated appropriate training to resolve deficiences', 'Initiated actions to discharge, promote, or advance personnel as appropriate', 'processed payroll for unit personnel', 'Compiled status reports'
      
     ],
     startDate: '2004, 5',

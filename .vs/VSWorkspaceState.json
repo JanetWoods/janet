@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.git",
-    "\\dist",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\experiences"
+    "\\src\\app\\experiences",
+    "\\src\\assets"
   ],
+  "SelectedNode": "\\src\\app\\collectionOfPositions.ts",
   "PreviewInSolutionExplorer": false
 }

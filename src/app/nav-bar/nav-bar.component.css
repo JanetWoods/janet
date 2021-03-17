@@ -1,0 +1,33 @@
+.navBar {
+  display: flex;
+  color: blueviolet;
+  align-content: space-evenly;
+  flex-basis:auto;
+  width: 100%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.nav-link {
+  flex-direction: row;
+  align-content: space-evenly;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.visited {
+  color: aqua;
+}
+
+.container {
+  justify-content: center;
+  width: 80%;
+}

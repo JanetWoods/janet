@@ -8,7 +8,7 @@ import { EXPERIENCES } from '../collectionOfPositions'
   styleUrls: ['./experiences.component.css']
 })
 export class ExperiencesComponent implements OnInit {
-
+  title="Janet N. Woods"
   experiences = EXPERIENCES;
 
   selectedExperience?: Experience;

@@ -5,7 +5,7 @@ export const EXPERIENCES: Experience[] = [
     id: 1,
     positionTitle: "Junior Software Developer",
     employer: 'TEKSystems',
-    duties: ['Modified code (C#)', 'Produced documentation', 'Worked remotley via VPN and Citrix RDP'],
+    duties: ['Modified code (C#)', 'Produced documentation', 'Worked remotely via VPN and Citrix RDP'],
     startDate: '2020, 4',
     endDate: '2021, 4'
   },
